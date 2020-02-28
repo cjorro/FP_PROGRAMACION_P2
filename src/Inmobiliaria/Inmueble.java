@@ -47,6 +47,11 @@ public class Inmueble {
 		System.out.println("\t-PRECIO: " + precio);
 	}
 	
+	public double precioFinal() {
+		double precioFinal = precio + calculaIva();
+		return precioFinal;
+	}
+	
 	
 	
 
