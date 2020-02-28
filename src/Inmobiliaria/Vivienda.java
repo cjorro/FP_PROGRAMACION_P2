@@ -20,7 +20,10 @@ public class Vivienda extends Inmueble {
 	
 	public void mostrarInmueble() {
 		super.mostrarInmueble();
-		//TODO--implementar
+		System.out.println("\t-TIPO: VIVIENDA ");
+		System.out.println("\t-ALTURA: " + altura);
+		System.out.println("\t-BALCON: " + balcon);
+		System.out.println("\t-EXTERIOR: " + exterior);
 		
 	}
 	

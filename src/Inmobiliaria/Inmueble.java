@@ -19,7 +19,7 @@ public class Inmueble {
 		
 		this.codigo = codigo;
 		this.tipo = tipo;
-		this.codigo = direccion;
+		this.direccion = direccion;
 		this.poblacion = poblacion;
 		this.metros = metros;
 		this.habitaciones = habitaciones;
@@ -36,7 +36,15 @@ public class Inmueble {
 	}
 
 	public void mostrarInmueble() {
-		//TODO- implementar metodo
+		System.out.println("Inmueble: ");
+		System.out.println("\t-CODIGO: " + codigo);
+		System.out.println("\t-TIPO: " + tipo);
+		System.out.println("\t-DIRECCION: " + direccion);
+		System.out.println("\t-POBLACION: " + poblacion);
+		System.out.println("\t-SUPERFICIE: " + metros + "m2");
+		System.out.println("\t-HABITACIONES: " + habitaciones);
+		System.out.println("\t-PLAZA DE GARAJE : " + plazaGaraje);
+		System.out.println("\t-PRECIO: " + precio);
 	}
 	
 	

@@ -21,7 +21,12 @@ public class Chalet extends Inmueble {
 	
 	public void mostrarInmueble() {
 		super.mostrarInmueble();
-		//TODO - implementar
+		System.out.println("\t-TIPO: CHALET ");
+		System.out.println("\t-SUPERFICIE PARCELA: " + parcela + "m2");
+		System.out.println("\t-PISCINA: " + piscina);
+		System.out.println("\t-PAELLERO: " + paellero);
+		
+		
 	}
 	
 	public double comision() {
